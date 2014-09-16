@@ -26,5 +26,24 @@
 	    echo "<br>";
 	   	echo ($muutuja1 . $muutuja2);
 	?>
+	
+	<h2>Nimekirja väljastamine muutujate ja stringide abil</h2>
+	<?php
+	    $student1 = "jaagup";
+	    $student2 = "peeter";
+	    $student3 = "anastassia";
+	    $student4 = "mihkel";
+	    $student5 = "vassilissa";
+	?>
+	<ul>
+		<?php
+	echo
+	 		"<li>$student1</li>
+	 		<li>$student2</li>
+	 		<li>$student3</li>
+	 		<li>$student4</li>
+	 		<li>$student5</li>"
+	?>
+	</ul>
 </body>
 </html>	
