@@ -17,7 +17,14 @@
     echo $hernes;
 	echo "<br>";
 ?>
-
-	
+<h2>Stringid</h2>
+	<?php echo "Hello world!"; ?><br>
+	<?php echo 'Tere,tere';?>
+		<?php
+	    $muutuja1 = "24";
+	    $muutuja2 = "26";
+	    echo "<br>";
+	   	echo ($muutuja1 . $muutuja2);
+	?>
 </body>
 </html>	
