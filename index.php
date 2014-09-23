@@ -45,5 +45,24 @@
 	 		<li>$student5</li>"
 	?>
 	</ul>
+	<?php
+	    $firstName = "Kristi";
+	    $lastName = "Henno";
+	    $fullName = ("$firstName " . $lastName);
+
+	    echo $fullName;
+	    echo "<br>";
+	    $test = "Testin";
+		echo "$test kas interpolatsioon töötab";
+
+		$age = "25";
+		echo "<br>";
+		echo "Ma olen {$age}-e aastane";
+
+	//strtolower tähendab pikemalt "StringToLower" ning selle funktsiooni eesmärgiks on muuta stringi tähemärgid väikesteks tähemärkideks
+		$source = "see Tekst SISALDAB suuri TÄHEMÄRKE!!!";
+		$lower = strtolower($source);
+		echo "<p>{$lower}</p>";
+	?>
 </body>
 </html>	
